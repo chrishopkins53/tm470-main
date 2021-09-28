@@ -66,11 +66,11 @@ GEM
       dry-initializer (~> 3.0)
       dry-schema (~> 1.5)
     gherkin (5.1.0)
-    mini_portile2 (2.5.1)
+    mini_portile2 (2.6.1)
     multi_json (1.15.0)
     multi_test (0.1.2)
-    nokogiri (1.11.4)
-      mini_portile2 (~> 2.5.0)
+    nokogiri (1.12.5)
+      mini_portile2 (~> 2.6.1)
       racc (~> 1.4)
     parallel (1.19.2)
     parallel_tests (2.32.0)
@@ -123,7 +123,7 @@ PLATFORMS
 DEPENDENCIES
   config (~> 2.0)
   cucumber (~> 3.1)
-  nokogiri (~> 1.11)
+  nokogiri (~> 1.12)
   parallel_tests (~> 2.29)
   rake (~> 12.3)
   rspec
